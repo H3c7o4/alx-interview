@@ -14,7 +14,7 @@ def pascal_triangle(n):
     mat[1] = [1, 1]
 
     if n <= 0:
-        return [[]]
+        return []
     if n == 1:
         return mat[0]
     if n == 2:
