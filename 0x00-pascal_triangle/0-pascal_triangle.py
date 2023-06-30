@@ -10,15 +10,15 @@ def pascal_triangle(n):
     :return type: int
     """
     mat = list(range(n))
-    mat[0] = [1]
-    mat[1] = [1, 1]
 
     if n <= 0:
         return []
     if n == 1:
-        return mat[0]
+        return [[1]]
     if n == 2:
-        return mat
+        return [[1], [1, 1]]
+    mat[0] = [1]
+    mat[1] = [1, 1]
     if n > 2:
         for i in range(2, n):
             mat[i] = [
