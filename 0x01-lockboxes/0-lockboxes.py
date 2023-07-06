@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+
+This module contains the solution of the lockboxes problem
+
+"""
 
 
 def canUnlockAll(boxes):
