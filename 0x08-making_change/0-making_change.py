@@ -36,4 +36,3 @@ def makeChange(coins, total):
     if remain in coins:
         return fn + 1
     return -1
-
