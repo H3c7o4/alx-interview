@@ -8,8 +8,8 @@ def makeChange(coins, total):
     """
 
     Args:
-      - coins(list): list of the values of the coins in possession
-      - total(int): given amount
+      - coins (list): list of the values of the coins in possession
+      - total (int): given amount
 
     Returns:
       - 0 if total is 0 or less
